@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 16px;
+    color: white;
+    background-color: #61122f;
+    font-family: 'Comic Sans MS';
+}
+
+nav .container {
+    position:relative;
+    float:left;
+    width:88%
+}
+
+#header-nav {
+    background-color: #dbbc06;
+    border: 3px, solid, black;
+}
+
+
+.navbar-brand h1{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px, 1px, 1px, #222;
+    vertical-align: middle;
+}
+
+#menu {
+    text-align:center;
+    margin-top: 5%;
+}
+
+
+#navbarScroll {
+    justify-content: space-around;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.li_item {
+    border: 3px, solid, black;
+    margin: -1px;
+    text-align: center;    
+}
+.li_item:hover, .li_item:focus {
+        cursor: pointer;
+        background-color:#9e9965;
+        justify-content: space-around;
+}
+
+.navbar-header {
+    width:100%;
+}
+
+.navbar-toggler {
+    float:right;
+    margin-right:1%;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        width: 30%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .col-sm-6 {
+        width: 47%;
+    }
+}
+    
+.container_chicken {
+    background-color: darkgrey;
+    box-sizing: border-box;
+    margin: 1.5%;
+    
+ }
+
+#chicken {
+    text-align: center;
+    width: 100%;
+}
